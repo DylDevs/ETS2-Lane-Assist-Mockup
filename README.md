@@ -1,4 +1,4 @@
-# Lane-Assist-Mockup
+# LaneA ssist Mockup
 This is a mockup/concept of an app called ETS2/ATS Lane Assist 
 This version of the app is non-functional and probobaly never will be functiong
 The only purpose of this app is a basic GUI using customtkinter
