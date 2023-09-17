@@ -1,34 +1,87 @@
-print("Importing / Installing required GUI Elements..")
 import os
 import sys
+import subprocess
 
-from platform import python_version
-if sys.version_info[0] != 3 or sys.version_info[1] < 9:
+
+APP_URL = "https://github.com/dylanb92010/Lane-Assist-Mockup"
+FOLDER = os.path.dirname(__file__)
+
+
+def printRed(text):
+    print("\033[91m {}\033[00m" .format(text))
+def printGreen(text):
+    print("\033[92m {}\033[00m" .format(text))
+
+# Check for path spaces
+print("Checking for path spaces...")
+if " " in os.getcwd():
+    printRed("The path of this app includes spaces.")
+    printRed("Please move the app to a folder path without spaces.")
+    printGreen("For example 'C:/LaneAssist/'")
+    print("Press Enter to exit...")
+    input()
+    quit()
+
+# Check for special characters
+print("Checking for special charachters in path")
+if not os.getcwd().isascii():
+    printRed("The path of this app includes special characters.")
+    printRed("Please move the app to a folder path without special characters.")
+    printGreen("For example 'C:/LaneAssist/'")
+    print("Press Enter to exit...")
+    input()
+    quit()
+
+print("Checking path for OneDrive")
+if "OneDrive" in os.getcwd().lower():
+    printRed("The path of this app includes 'OneDrive'.")
+    printRed("OneDrive prevents the app from creating a virtual environment.")
+    printRed("Please move the app to a folder path without 'OneDrive'.")
+    printGreen("For example 'C:/LaneAssist/'")
+    print("Press Enter to exit...")
+    input()
+    quit()
+
+def CheckGit():
     try:
-        import readchar
+        subprocess.check_call(["git", "--version"])
+        found = True
     except:
-        os.system("pip install readchar")
-    import readchar
+        found = False
+    
+    return found
+
+print("Checking for git...")
+foundGit = CheckGit()
+if not foundGit:
+    print("Git not found")
+    print("Please install git and run the installer again.")
+    print("Press Enter to exit...")
+    input()
+    quit()
+
+print("Checking Python version")
+print("Note: Python 3.11 and up may not work")
+from platform import python_version
+print(python_version)
+if sys.version_info[0] != 3 or sys.version_info[1] < 9:
     print("Python 3.9 or later is required")
-    print("Python 3.11 and up will not work")
+    print("Python 3.11 and up may not work")
     print("Python version 3.9.13 is recomended")
-    print("Press Any Key To Exit...")
-    k = readchar.readchar()
+    print("Press Enter to exit...")
+    input()
     quit()
     
+print("Importing / Installing required GUI Elements..")
 try:
     import customtkinter as ctk
-except: 
-    try:
-        import readchar
-    except:
-        os.system("pip install readchar")
+except:
     os.system("pip install customtkinter")
     print("-------------------------")
     print("Please relaunch the app")
     print("-------------------------")
-    print("Press Any Key To Exit...")
-    k = readchar.readchar()
+    print("Press Enter to exit...")
+    input() 
     quit()
 
 print("Imported")
@@ -52,33 +105,42 @@ githublink.grid()
 
 def installredirect():
     destroytext()
+
 installbutton=ctk.CTkButton(master=root, text="Install", height=50, width=200, font=("Roboto", 25), command=installredirect)
 installbutton.grid(pady=10)
 
-frame=ctk.CTkScrollableFrame(master=root, height=400, width=550)
+frame=ctk.CTkFrame(master=root, height=400, width=550)
+frame.grid_propagate(False)
 frame.grid()
 
+def destroyframe():
+    frame.destroy()
+    installbutton.destroy()
+    installbutton2=ctk.CTkButton(master=root, text="Install App", height=50, width=200, font=("Roboto", 25), command=installprogram)
+    installbutton2.grid(pady=10)
+    newframe()
+
 installtext=ctk.CTkLabel(master=frame, text="To install dependencies, click the above install button")
-installtext.grid(sticky="W")
+installtext.grid(padx=10, sticky="W")
 
 dependenciesb=ctk.CTkLabel(master=frame, text="Dependencies being installed are listed below:")
-dependenciesb.grid(sticky="W")
+dependenciesb.grid(padx=10, sticky="W")
 
 dependencies=ctk.CTkLabel(master=frame, text="tkinter, customtkinter, readchar, sys, os, colorama, webbrowser, webview")
-dependencies.grid(sticky="W")
+dependencies.grid(padx=10, sticky="W")
 
 dependencies2=ctk.CTkLabel(master=frame, text="keyboard, matplotlib, canvas, time, traceback, PIL, Image")
-dependencies2.grid(sticky="W")
+dependencies2.grid(padx=10, sticky="W")
 
 def destroytext():
     installtext.destroy()
     dependenciesb.destroy()
     dependencies.destroy()
     dependencies2.destroy()
-    unresponsive=ctk.CTkLabel(master=frame, text="This window will be unresponsive, check CMD widnow for progress")
-    unresponsive.grid(sticky="W")
-    takeawhile=ctk.CTkLabel(master=frame, text="This could take awhile depending on how many modules you already have installed")
-    takeawhile.grid(sticky="W")
+    inst=ctk.CTkLabel(master=frame, text="This window will be unresponsive, check CMD widnow for progress")
+    inst.grid(sticky="W")
+    inst2=ctk.CTkLabel(master=frame, text="This could take awhile depending on how many modules you already have installed")
+    inst2.grid(sticky="W")
     installdependencies()
 
 def installdependencies():
@@ -234,10 +296,44 @@ def installdependencies():
         os.system("pip install image")
         from PIL import Image
         print("Image has been installed")
-    import colorama
-    print(colorama.Fore.GREEN,"All modules have been imported you can close the window")
-    finished=ctk.CTkLabel(master=frame, text="All modules have been imported you can close the window")
-    finished.grid(sticky="W")
 
+    print("Checking for Git module")
+    try:
+        import git
+        print("Git is already installed")
+    except:
+        print("Git is not installed, installing now...")
+        os.system("pip install git")
+        import git
+        print("Git has been installed")
+    import time
+    print("Finalizing...")
+    time.sleep(2)
+    print("Check the install window for further steps")
+    destroyframe()
+
+def newframe():
+    frame2=ctk.CTkFrame(master=root, height=400, width=550)
+    frame2.grid_propagate(False)
+    frame2.grid()
+    appinstalltext=ctk.CTkLabel(master=frame2, text="Modules have been installed, now the app has to be installed")
+    appinstalltext.grid(padx=10, sticky="W")
+    appinstalltext2=ctk.CTkLabel(master=frame2, text="Press the Install App button to download app files")
+    appinstalltext2.grid(padx=10, sticky="W")
+    appinstalltext3=ctk.CTkLabel(master=frame2, text="This will download the files from my GitHub page using Git")
+    appinstalltext3.grid(padx=10, sticky="W")
+
+def installprogram():
+    print("Downloading App, this could take awhile")
+    os.chdir(FOLDER)
+    os.system("git clone https://github.com/dylanb92010/Lane-Assist-Mockup")
+    import time
+    time.sleep(3)
+    print("App has been downloaded")
+    print("App files have been downloaded to the Lane_Assist_Mockup folder")
+    print("Run lane_assist.py to open the Lane Assist")
+    print("Press Enter to exit...")
+    input()
+    quit()
 
 root.mainloop()
