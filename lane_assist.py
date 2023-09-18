@@ -1,37 +1,11 @@
 #Import required modules
 import os
 import variables
-
-
-try:
-    import tkinter as tk
-except:
-    os.system("pip install tkinter")
-    import tkinter as tk
-
-try:
-    import customtkinter as ctk
-except: 
-    os.system("pip install customtkinter")
-    import customtkinter as ctk
-
-try:
-    import colorama
-except:
-    os.system("pip install colorama")
-    import colorama
-
-try:
-    import webbrowser
-except:
-    os.system ("pip install webbrowser")
-    import webbrowser
-
-try:
-    import keyboard
-except:
-    os.system("pip install keyboard")
-    import keyboard
+import tkinter as tk
+import customtkinter as ctk
+import colorama
+import webbrowser
+import keyboard
 
 #Set theme
 ctk.set_appearance_mode("dark")

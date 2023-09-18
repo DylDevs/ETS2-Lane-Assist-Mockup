@@ -1,4 +1,5 @@
 #Import required modules
+import logger
 import tkinter as tk
 import customtkinter as ctk
 import webview

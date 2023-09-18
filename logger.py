@@ -1,3 +1,6 @@
+#DISCLAIMER This is not my file, the file was orginally from Tumppi066's ETS2 Lane Assist
+#All credits to Tumppi066
+#Small edits were made to account for my lack of software
 """
 
 Logger, will replace the default "print" command with a custom one that will also log to a file.
