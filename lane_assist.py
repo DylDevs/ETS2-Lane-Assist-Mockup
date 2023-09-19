@@ -1,4 +1,5 @@
 #Import required modules
+from logger import print
 import os
 import variables
 import tkinter as tk
