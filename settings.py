@@ -41,9 +41,11 @@ restart.grid(sticky="s", pady=20)
 
 def closepopup():
     def closewindow():
+        print("Window closed")
         root.destroy()
         
     def cancelclose():
+        print("Close cancelled")
         root2.destroy()
 
     root2 = ctk.CTkToplevel()
