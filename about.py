@@ -1,8 +1,10 @@
 #Import required modules
 from logger import print
+print("Importing modules")
 import tkinter as tk
 import customtkinter as ctk
 import webview
+print("Imported")
 
 #Set theme
 ctk.set_appearance_mode("dark")
@@ -14,6 +16,7 @@ root.geometry("850x600")
 print('Main window created')
 
 #Create Frame
+print("Creating Frame...")
 aboutframe=ctk.CTkFrame(master=root, height=570, width=600)
 aboutframe.grid_propagate (False) 
 aboutframe.grid(sticky="N", pady=13, padx=200, row=0, column=1)
@@ -52,10 +55,9 @@ def kofilink():
     webview.create_window('Support me on Ko-Fi', 'https://ko-fi.com/tumppi066')
     webview.start()
 
-
 supportkofi=ctk.CTkButton(master=aboutframe, text="Support me on Ko-Fi", font=("Roboto", 20), height=50, width=200, command=kofilink)
 supportkofi.grid(pady=30)
-
+print("Frame created")
 
 def closepopup():
     def closewindow():
@@ -83,6 +85,5 @@ def closepopup():
     exit_button.grid(sticky="E", column=1, row=1, pady=23, padx=25)
 
 root.protocol("WM_DELETE_WINDOW", closepopup)
-
 
 root.mainloop()

@@ -1,5 +1,6 @@
 #Import required modules
 from logger import print
+print("Importing Modules...")
 import os
 import variables
 import tkinter as tk
@@ -7,8 +8,10 @@ import customtkinter as ctk
 import colorama
 import webbrowser
 import keyboard
+print("Imported")
 
 #Set theme
+print("Default theme: Dark")
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
 
@@ -21,9 +24,10 @@ print('Main window created')
 def destroyall():
     homeframe.destroy()
     homeframe2.destroy()
-    print("Home frame destroyed")
+    print("Frame destroyed")
 
-#Make Frame 
+#Make Frame
+print("Creating Franes...") 
 buttonframe=ctk.CTkFrame(master=root, height=570, width=175)
 buttonframe.grid_propagate (False) 
 buttonframe.grid(pady=13, padx=20, row=0, column=0)
@@ -35,8 +39,6 @@ homeframe.grid(sticky="N", pady=13, padx=0, row=0, column=1)
 homeframe2=ctk.CTkFrame(master=root, height=150, width=600)
 homeframe2.grid_propagate (False) 
 homeframe2.grid(sticky="S", pady=13, padx=0, row=0, column=1)
-
-
 print("Frames created")
 
 print("Creating sidebar buttons...")
@@ -131,10 +133,13 @@ f5refresh2.grid(pady=0, padx=0)
 print("Home buttons created")
 
 def closepopup():
+    print("Exit window created")
     def closewindow():
+        print("Closed window")
         root.destroy()
         
     def cancelclose():
+        print("Close Cancelled")
         root2.destroy()
 
     root2 = ctk.CTkToplevel()
