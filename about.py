@@ -52,6 +52,7 @@ about9=ctk.CTkLabel(master=aboutframe, text="in the development of this app.", f
 about9.grid()
 
 def kofilink():
+    print("Openintg Ko-Fi")
     webview.create_window('Support me on Ko-Fi', 'https://ko-fi.com/tumppi066')
     webview.start()
 
@@ -61,9 +62,11 @@ print("Frame created")
 
 def closepopup():
     def closewindow():
+        print("Window Closed")
         root.destroy()
         
     def cancelclose():
+        print("Close Cancelled")
         root2.destroy()
 
     root2 = ctk.CTkToplevel()
