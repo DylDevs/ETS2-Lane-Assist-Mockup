@@ -14,3 +14,4 @@ Completed items will be marked with "✓"
 - Add slight details and copyrights
 - Redine readme.md
 - Look into more open source licenses
+- Try to make preview window mockup (probobaly 2.0)
