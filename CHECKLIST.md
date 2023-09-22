@@ -1,4 +1,6 @@
 Checklist of things to impliment/fix before 1.0 
+Completed items will be marked with "✓"
+
 - Create performance page
 - Create Plugins page
 - Create Panels page
