@@ -7,6 +7,9 @@ Completed items will be marked with "✓"
 - Create Panels page
 - Make directories simpler and more understandable
 - Finish Installer.py
+- Finish updater.py
+- Finish update.bat
+- Finish Run.bat
 - Implement Chanelog
 - Fix Light/Dark mode toggle
 - Impliment Theme toggle
