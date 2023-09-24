@@ -1,4 +1,5 @@
 Checklist of things to impliment/fix before 1.0 
+
 ETA: October 8 (Subject to change)
 
 Completed items will be marked with "✓"
