@@ -21,3 +21,5 @@ Completed items will be marked with "✓"
 - Redine readme.md
 - Look into more open source licenses ✓ (Sticking with MIT)
 - Try to make preview window mockup (probobaly 2.0) ✓ (Looks acheiveable, will try to add in a future update (maybe before 2.0))
+
+Note: None of the things mentioned here will be available until the release of 1.0. This checklist is just so you can check the progress of what is ready for release. Everything on the list (excluding items noted for 2.0) will be available in 1.0 (Check ETA at the top)
