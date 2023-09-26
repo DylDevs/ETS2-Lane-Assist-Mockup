@@ -4,7 +4,7 @@ ETA: October 8 (Subject to change)
 
 Completed items will be marked with "✓"
 
-6\15 Completed
+6\17 Completed
 
 - Create performance page
 - Create Plugins page
@@ -18,6 +18,8 @@ Completed items will be marked with "✓"
 - Impliment Theme toggle
 - Try sv-ttk for GUI instead of customtkinter ✓ (Could be an option in 2.0)
 - Add slight details and copyrights
+- Add brief explanation as to what the file does at the top of the code
+- Add notations to all files to mmake them easy to understand
 - Redine readme.md
 - Look into more open source licenses ✓ (Sticking with MIT)
 - Try to make preview window mockup (probobaly 2.0) ✓ (Looks acheiveable, will try to add in a future update (maybe before 2.0))
