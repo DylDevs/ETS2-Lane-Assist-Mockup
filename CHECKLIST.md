@@ -9,7 +9,7 @@ Completed items will be marked with "✓"
 - Create performance page
 - Create Plugins page
 - Create Panels page
-- Make directories simpler and more understandable
+- Make directories simpler and more understandable (Note: Directories will be better than right now in 1.0, in 2.0 directories will be simplified)
 - Finish Installer.py ✓ (Finished, might make a couple tweaks)
 - Finish update.py ✓ (Finished)
 - Finish Run.py ✓ (run.py now works and starts lane_assist.py)
