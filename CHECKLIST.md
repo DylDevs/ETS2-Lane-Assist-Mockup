@@ -4,7 +4,7 @@ ETA: October 12 (Subject to change)
 
 Completed items will be marked with "✓"
 
-7\17 Completed
+8\17 Completed
 
 - Create performance page
 - Create Plugins page
@@ -15,7 +15,7 @@ Completed items will be marked with "✓"
 - Finish Run.py ✓ (run.py now works and starts lane_assist.py)
 - Implement Chanelog
 - Fix Light/Dark mode toggle ✓ (Fully functional (Light, Dark, System))
-- Impliment Theme toggle
+- Impliment Theme toggle ✓ (Seems to be impossible due to CTK limitations, will look into it before 2.0) (Removed option)
 - Try sv-ttk for GUI instead of customtkinter ✓ (Could be an option in 2.0)
 - Add slight details and copyrights
 - Add brief explanation as to what the file does at the top of the code
