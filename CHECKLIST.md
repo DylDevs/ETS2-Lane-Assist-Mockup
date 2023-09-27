@@ -4,7 +4,7 @@ ETA: October 12 (Subject to change)
 
 Completed items will be marked with "✓"
 
-6\17 Completed
+7\17 Completed
 
 - Create performance page
 - Create Plugins page
@@ -14,7 +14,7 @@ Completed items will be marked with "✓"
 - Finish update.py ✓ (Finished)
 - Finish Run.py ✓ (run.py now works and starts lane_assist.py)
 - Implement Chanelog
-- Fix Light/Dark mode toggle
+- Fix Light/Dark mode toggle ✓ (Fully functional (Light, Dark, System))
 - Impliment Theme toggle
 - Try sv-ttk for GUI instead of customtkinter ✓ (Could be an option in 2.0)
 - Add slight details and copyrights
