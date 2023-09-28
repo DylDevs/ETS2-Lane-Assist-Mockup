@@ -13,7 +13,7 @@ Completed items will be marked with "✓"
 - Finish Installer.py ✓ (Finished, might make a couple tweaks)
 - Finish update.py ✓ (Finished)
 - Finish Run.py ✓ (run.py now works and starts lane_assist.py)
-- Implement Chanelog
+- Implement Chanelog ✓ (Changelog opens with a button and executes in a webview window) (Mitght make it automatic in 2.0)
 - Fix Light/Dark mode toggle ✓ (Fully functional (Light, Dark, System))
 - Impliment Theme toggle ✓ (Seems to be impossible due to CTK limitations, will look into it before 2.0) (Removed option)
 - Try sv-ttk for GUI instead of customtkinter ✓ (Could be an option in 2.0)
