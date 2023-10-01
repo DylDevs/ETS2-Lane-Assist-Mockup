@@ -1,13 +1,13 @@
 Checklist of things to impliment/fix before 1.0 
 
-ETA: October 12 (Subject to change)
+ETA: October 8 (Subject to change)
 
 Completed items will be marked with "✓"
 
 9\17 Completed
 
 - Create performance page
-- Create Plugins page
+- Create Plugins page ✓ (Plugins page created, None of the buttons, except sidebar buttons, on this page work)
 - Create Panels page ✓ (Panels page created, None of the buttons, except sidebar buttons, on this page work)
 - Make directories simpler and more understandable (Note: Directories will be better than right now in 1.0, in 2.0 directories will be simplified)
 - Finish Installer.py ✓ (Finished, might make a couple tweaks)
