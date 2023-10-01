@@ -4,7 +4,7 @@ ETA: October 8 (Subject to change)
 
 Completed items will be marked with "✓"
 
-9\17 Completed
+11\17 Completed
 
 - Create performance page
 - Create Plugins page ✓ (Plugins page created, None of the buttons, except sidebar buttons, on this page work)
