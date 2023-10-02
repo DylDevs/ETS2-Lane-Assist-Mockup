@@ -1,12 +1,12 @@
 Checklist of things to impliment/fix before 1.0 
 
-ETA: October 8 (Subject to change)
+ETA: October 5 (Subject to change)
 
 Completed items will be marked with "✓"
 
-11\17 Completed
+12\17 Completed
 
-- Create performance page
+- Create performance page ✓ (Plugins page created, Nothing, except sidebar buttons, on this page work)
 - Create Plugins page ✓ (Plugins page created, None of the buttons, except sidebar buttons, on this page work)
 - Create Panels page ✓ (Panels page created, None of the buttons, except sidebar buttons, on this page work)
 - Make directories simpler and more understandable (Note: Directories will be better than right now in 1.0, in 2.0 directories will be simplified)
