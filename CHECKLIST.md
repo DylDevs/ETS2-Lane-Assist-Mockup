@@ -1,6 +1,6 @@
 Checklist of things to impliment/fix before 1.0 
 
-ETA: October 5 (Subject to change)
+ETA: October ?? (Subject to change), This project is on the back burner, I am learning HTML and making a website. I will finish 1.0 as soon as I can.
 
 Completed items will be marked with "✓"
 
