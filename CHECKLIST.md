@@ -1,15 +1,14 @@
 Checklist of things to impliment/fix before 1.0 
 
-ETA: October ?? (Subject to change), This project is on the back burner, I am learning HTML and making a website. I will finish 1.0 as soon as I can.
-
+ETA: Should be released today or early tommorow
 Completed items will be marked with "✓"
 
-12\17 Completed
+14\16 Completed
 
 - Create performance page ✓ (Plugins page created, Nothing, except sidebar buttons, on this page work)
 - Create Plugins page ✓ (Plugins page created, None of the buttons, except sidebar buttons, on this page work)
 - Create Panels page ✓ (Panels page created, None of the buttons, except sidebar buttons, on this page work)
-- Make directories simpler and more understandable (Note: Directories will be better than right now in 1.0, in 2.0 directories will be simplified)
+- Make directories simpler and more understandable ✓ (Note: Directories will be better than right now in 1.0, in 2.0 directories will be simplified)
 - Finish Installer.py ✓ (Finished, might make a couple tweaks)
 - Finish update.py ✓ (Finished)
 - Finish Run.py ✓ (run.py now works and starts lane_assist.py)
@@ -18,8 +17,7 @@ Completed items will be marked with "✓"
 - Impliment Theme toggle ✓ (Seems to be impossible due to CTK limitations, will look into it before 2.0) (Removed option)
 - Try sv-ttk for GUI instead of customtkinter ✓ (Could be an option in 2.0)
 - Add slight details and copyrights
-- Add brief explanation as to what the file does at the top of the code
-- Add notations to all files to mmake them easy to understand
+- Add brief explanation as to what the file does at the top of the code ✓
 - Redine readme.md
 - Look into more open source licenses ✓ (Sticking with MIT)
 - Try to make preview window mockup (probobaly 2.0) ✓ (Looks acheiveable, will try to add in a future update (maybe before 2.0))
