@@ -1,6 +1,7 @@
 Checklist of things to impliment/fix before 1.0 
 
-ETA: Should be released today or early tommorow
+ETA: Should be released October 9 (Found some technical issues)
+
 Completed items will be marked with "✓"
 
 14\16 Completed
