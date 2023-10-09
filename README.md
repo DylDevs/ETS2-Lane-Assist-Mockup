@@ -50,4 +50,4 @@ All credits go to Tumppi066, he made the real ETS2 Lane Assist program and inspi
 Of course thanks to the developers of the modules. <br> 
 I had a ton of fun making this program, and I cant wait to spend hours more making 2.0.
 
-(1.0 IS NOT RELEASED YET, ETA OCTOBER 9, 10)
+(1.0 IS NOT RELEASED YET, ETA OCTOBER 9)
