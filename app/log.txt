@@ -1,0 +1,3 @@
+[0.062] [logger.py]	- Logger initialized!
+[0.250] [settings.py]	- Settings window created
+[0.656] [settings.py]	- Window closed
