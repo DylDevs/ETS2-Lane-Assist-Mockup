@@ -1,6 +1,5 @@
 # EDIT/NOTE:
-
-EDIT: I have since become a developer for the actual ETS2LA program. Looking back at the code for this project, it really, really sucks. When I made this I barely knew what a function was. This was the first project I ever made and was definitley a learning curve for me. I have learned from this experience and I am now making better far better code (still not the greatest) for ETS2LA. I will no longer be maintaining this project and 2.0 will never happen unless I get bored.
+Since making this project, I have become a developer for the actual ETS2LA program. Looking back at the code for this project, it really, really sucks. When I made this I barely knew what a function was. This was the first project I ever made and was definitley a learning curve for me. I have learned from this experience and I am now making better far better code (still not the greatest) for ETS2LA. I will no longer be maintaining this project and 2.0 will never happen unless I get bored.
 
 ![Add a heading](https://github.com/dylanb92010/Lane-Assist-Mockup/assets/110776467/63ba1ad3-880d-43eb-84eb-c5ee5d9b661d)
 Credits to Tumppi066 for the logo
