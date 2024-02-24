@@ -49,3 +49,5 @@ This project is made by DylDeveloper and is registered under an MIT License <br>
 All credits go to Tumppi066, he made the real ETS2 Lane Assist program and inspired me to start coding. <br>
 Of course thanks to the developers of the modules. <br> 
 I had a ton of fun making this program, and I cant wait to spend hours more making 2.0.
+
+EDIT: I have since become a developer for the actual ETS2LA program. Looking back at the code for this project, it really, really sucks. When I made this I barely knew what a function was. I will no longer be maintaining this project and 2.0 will never happen unless I get bored.
