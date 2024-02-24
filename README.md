@@ -50,4 +50,4 @@ All credits go to Tumppi066, he made the real ETS2 Lane Assist program and inspi
 Of course thanks to the developers of the modules. <br> 
 I had a ton of fun making this program, and I cant wait to spend hours more making 2.0.
 
-EDIT: I have since become a developer for the actual ETS2LA program. Looking back at the code for this project, it really, really sucks. When I made this I barely knew what a function was. I will no longer be maintaining this project and 2.0 will never happen unless I get bored.
+EDIT: I have since become a developer for the actual ETS2LA program. Looking back at the code for this project, it really, really sucks. When I made this I barely knew what a function was. This was the first project I ever made and was definitley a learning curve for me. I have learned from this experience and I am now making better far better code (still not the greatest) for ETS2LA. I will no longer be maintaining this project and 2.0 will never happen unless I get bored.
